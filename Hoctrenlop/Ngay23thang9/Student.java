@@ -13,20 +13,22 @@ public class Student {
     private String email;
     private int sdt;
 
+
+    // contructor
     public Student(String name, double diemCC, double diemGK, double diemCK) {
 
         counter++;
         this.mssv = String.format("B25DCCC%03d", counter);
         this.name = name;
-        this.diemCC = diemCC;
-        this.diemGK = diemGK;
-        this.diemCK = diemCK;
+        setDiemCC(diemCC);
+        setDiemGK(diemGK);
+        setDiemCK(diemCK);
     }
 
     // Getters
     public String getMssv() {
         return mssv;
-    }
+    } 
 
     public String getName() {
         return name;
