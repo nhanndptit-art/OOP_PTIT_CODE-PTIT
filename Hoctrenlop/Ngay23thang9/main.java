@@ -25,7 +25,8 @@ public class main {
             // Thử thêm lại sv1 (người đã có trong danh sách)
             lopJava.addStudent(sv1); 
             System.out.println("Thêm thành công!"); 
-        } catch (IllegalArgumentException e) {
+        } 
+        catch (IllegalArgumentException e) {
             System.out.println("BỊ CHẶN: " + e.getMessage()); 
         }
 
