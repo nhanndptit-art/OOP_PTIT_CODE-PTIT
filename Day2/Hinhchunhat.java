@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Hinhchunhat {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int chieudai = scanner.nextInt();
-        int chieurong = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int chieudai = sc.nextInt();
+        int chieurong = sc.nextInt();
         if (chieudai <= 0 || chieurong <= 0) {
             System.out.println("0");
         } else {
@@ -13,4 +13,5 @@ public class Hinhchunhat {
             int chuvi = (chieudai + chieurong) * 2;
             System.out.println(chuvi + " " + dientich);
         }
+        sc.close();
     }}

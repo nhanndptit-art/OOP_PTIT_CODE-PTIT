@@ -1,6 +1,6 @@
 package Hoctrenlop.Ngay23thang9;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Classroom lopJava = new Classroom("Lập trình Java Căn Bản");
 
