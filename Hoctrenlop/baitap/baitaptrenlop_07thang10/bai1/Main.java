@@ -3,7 +3,7 @@ package Hoctrenlop.baitap.baitaptrenlop_07thang10.bai1;
 
 public class Main {
     public static void main(String[] args) {
-        // Khởi tạo mảng Employee chứa các đối tượng thuộc cả 2 loại
+        
         Employee[] employees = new Employee[4];
         
         employees[0] = new OfficeEmployee("Nguyễn Văn A", 30, 22);
