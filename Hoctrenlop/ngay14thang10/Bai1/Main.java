@@ -2,8 +2,7 @@ package Hoctrenlop.ngay14thang10.Bai1;
 
 abstract class Animal {
     protected String name;
-
-
+    //constructor
     public Animal(String name) {
         this.name = name;
     }
@@ -23,7 +22,7 @@ class Dog extends Animal{
     }
 }
 class Cat extends Animal{
-    
+
 
     public Cat(String name) {
         super(name);
@@ -46,3 +45,4 @@ public class Main {
         }
     }
 }
+
